@@ -1,0 +1,91 @@
+header {
+    height: 50px;
+}
+
+#header-right {
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.header-icon {
+    width: 44px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.header-icon > svg {
+    width: 25px;
+    height: 25px;
+    fill: var(--main-blue);
+}
+
+.header-icon:hover > svg {
+    fill: var(--main-blue-hover);
+}
+
+#header-profile-container {
+    position: relative;
+}
+
+#header-profile-username {
+    height: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#header-profile-username:hover {
+    background-color: var(--light-gray);
+}
+
+.header-icon-menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 20;
+    background-color: #fff;
+    border: 2px solid var(--main-blue);
+    width: max-content;
+}
+
+.header-icon-menu-item > a {
+    color: var(--main-blue);
+    font-size: 12px;
+    padding: 7px 15px;
+}
+
+.header-icon-menu-item > a:hover {
+    background-color: var(--light-gray);
+}
+
+.mobile-menu-button {
+    display: none;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.mobile-menu-button > svg {
+    width: 25px;
+    height: 25px;
+    fill: var(--main-blue);
+}
+
+@media (max-width: 870px) {
+    header {
+        padding: 0 15px;
+    }
+
+    #header-right > * {
+        display: none;
+    }
+
+    #header-right > .mobile-menu-button {
+        display: flex;
+    }
+}

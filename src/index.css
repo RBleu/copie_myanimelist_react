@@ -1,0 +1,108 @@
+:root {
+    --main-blue: #2e51a2;
+    --main-blue-hover: #5a79c1;
+    --darker-blue: #1c439b;
+    --light-gray: #e1e7f5;
+    --gray: #808080;
+    --dark-gray: #444;
+    --bg-header-table: #dde1ec;
+    --bg-content-table: #f8f8f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.button {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0.3em 1.5em;
+    border: 2px solid #000;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button.white-button {
+    color: var(--main-blue);
+    background-color: #fff;
+    border-color: var(--main-blue);
+}
+
+.button.white-button:hover {
+    background-color: var(--light-gray);
+}
+
+.button.blue-button {
+    color: #fff;
+    background-color: var(--main-blue);
+    border-color: var(--main-blue);
+}
+
+.button.blue-button:hover {
+    background-color: var(--main-blue-hover);
+    border-color: var(--main-blue-hover);
+}
+
+.link {
+    color: var(--darker-blue) !important;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.hover-opacity:hover img {
+    opacity: 0.8;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inline-grid {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}

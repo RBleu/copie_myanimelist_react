@@ -1,0 +1,45 @@
+.form-input-container {
+    width: 400px;
+    display: grid;
+    gap: 5px;
+}
+
+.form-input-container > label {
+    font-size: 14px;
+}
+
+.form-input-text {
+    height: 40px;
+    text-indent: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+.form-input-text:focus {
+    border-color: var(--main-blue);
+}
+
+.form-input-text.form-input-invalid {
+    border-color: #f00;
+}
+
+.form-input-container > input[type='submit'] {
+    cursor: pointer;
+    width: fit-content;
+    font-size: 17px;
+    padding: 8px 30px;
+    margin: 0 auto;
+}
+
+.form-input-error {
+    color: #f00;
+    border: 1px solid #f00;
+    font-size: 13px;
+    padding: 5px;
+}
+
+@media (max-width: 510px) {
+    .form-input-container {
+        width: auto;
+    }
+}

@@ -1,0 +1,120 @@
+#search-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(334px, 1fr));
+    gap: 15px 0;
+}
+
+.search-anime-card {
+    border: 1px solid #f0f0f0;
+    width: 334px;
+    justify-self: center;
+}
+
+.search-anime-card-link {
+    padding: 10px 20px;
+}
+
+.search-anime-card-link > a {
+    font-weight: 700;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.search-anime-card-info {
+    color: var(--dark-gray);
+    background-color: var(--bg-content-table);
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.search-anime-card-genres {
+    background-color: #f0f0f0;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 0;
+}
+
+.search-anime-card-genres > a {
+    font-size: 11px;
+    color: var(--gray);
+    background-color: #fff;
+    border: 1px solid var(--light-gray);
+    border-radius: 5px;
+    padding: 1px 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-anime-card-genres > a:hover {
+    color: var(--darker-blue);
+    background-color: var(--light-gray);
+}
+
+.search-anime-card-synopsis {
+    height: 232px;
+    overflow: hidden;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.search-anime-card-synopsis:hover {
+    overflow-y: scroll;
+}
+
+.search-anime-card-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--bg-content-table);
+    padding: 5px 0;
+}
+
+.search-anime-card-numbers {
+    color: #545454;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.search-anime-card-bottom > button {
+    font-size: 11px;
+}
+
+.search-plan-to-watch {
+    border-color: #c3c3c3;
+    background-color: #c3c3c3;
+    color: #fff;
+}
+
+.search-on-hold {
+    border-color: #f1c83e;
+    background-color: #f1c83e;
+    color: #fff;
+}
+
+.search-watching {
+    border-color: #2db039;
+    background-color: #2db039;
+    color: #fff;
+}
+
+.search-dropped {
+    border-color: #a12f31;
+    background-color: #a12f31;
+    color: #fff;
+}
+
+.search-completed {
+    border-color: #26448f;
+    background-color: #26448f;
+    color: #fff;
+}
+
+.search-plan-to-watch:hover,
+.search-on-hold:hover,
+.search-watching:hover,
+.search-dropped:hover,
+.search-completed:hover {
+    opacity: 0.7;
+}

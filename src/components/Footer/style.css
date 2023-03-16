@@ -1,0 +1,7 @@
+footer {
+    height: 100px;
+    color: #fff;
+    background-color: var(--main-blue);
+    font-size: 18px;
+    font-weight: 700;
+}

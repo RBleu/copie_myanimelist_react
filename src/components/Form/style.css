@@ -1,0 +1,21 @@
+.form-container {
+    width: 100%;
+}
+
+.form-border {
+    border: 10px solid var(--light-gray);
+}
+
+.form-border > form {
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    border: 1px solid var(--darker-blue);
+    padding: 20px 40px;
+}
+
+@media (max-width: 510px) {
+    .form-border {
+        width: calc(100% - 30px);
+    }
+}

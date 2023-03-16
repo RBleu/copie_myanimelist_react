@@ -1,0 +1,155 @@
+#profile-container {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(4, 25%);
+}
+
+#profile-aside {
+    display: grid;
+    gap: 5px;
+    grid-column: 1/2;
+    justify-content: flex-start;
+}
+
+.list-button {
+    font-size: 13px;
+}
+
+#profile-section {
+    grid-column: 2/-1;
+}
+
+#profile-section .section-title {
+    font-size: 15px;
+}
+
+.profile-section-container {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(2, calc(50% - 5px));
+    gap: 10px;
+}
+
+.profile-section-container .section-title {
+    font-weight: unset;
+}
+
+.stats-container {
+    display: grid;
+    gap: 10px;
+    padding: 5px;
+}
+
+.stats-score {
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.stats-score-number {
+    color: #000;
+    font-weight: 700;
+}
+
+.stats-graph {
+    display: flex;
+    width: 100%;
+    height: 18px;
+    background-color: var(--bg-content-table);
+}
+
+.stats-graph-item {
+    height: 100%;
+}
+
+.stats-watching {
+    background-color: #2db039;
+}
+
+.stats-completed {
+    background-color: #26448f;
+}
+
+.stats-on-hold {
+    background-color: #f9d457;
+}
+
+.stats-dropped {
+    background-color: #a12f31;
+}
+
+.stats-plan-to-watch {
+    background-color: #c3c3c3;
+}
+
+.stats-details {
+    font-size: 12px;
+    align-items: flex-start;
+}
+
+.stats-details-left {
+    display: grid;
+    gap: 10px;
+    width: 160px;
+}
+
+.stats-details-right {
+    display: grid;
+    gap: 10px;
+    width: 140px;
+}
+
+.circle {
+    height: 12px;
+    width: 12px;
+    border-radius: 500px;
+    margin-right: 10px;
+}
+
+.history-container {
+    display: grid;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.history-container > div > a {
+    margin-right: 5px;
+}
+
+.history-data {
+    display: grid;
+    gap: 5px;
+}
+
+.history-graph {
+    display: flex;
+    width: 194px;
+    height: 14px;
+    background-color: var(--bg-content-table);
+}
+
+.history-graph > span {
+    height: 100%;
+}
+
+.gray-text {
+    color: var(--gray);
+}
+
+@media (max-width: 950px) {
+    #profile-container {
+        grid-template-columns: 100%;
+    }
+
+    #profile-aside,
+    #profile-section {
+        grid-column: 1/-1;
+    }
+
+    #profile-aside {
+        justify-content: center;
+    }
+
+    .profile-section-container {
+        grid-template-columns: 100%;
+    }
+}

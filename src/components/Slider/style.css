@@ -1,0 +1,53 @@
+.slider-slide-link {
+    position: relative;
+}
+
+.slider-slide-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.slider-slide-title-bottom {
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: calc(100% - 10px);
+}
+
+.splide {
+    overflow: hidden;
+}
+
+.splide__arrow {
+    background-color: #000;
+    height: 80px;
+    width: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.splide__arrow svg {
+    fill: #fff;
+}
+
+.splide__arrow--prev {
+    border-radius: 0 500px 500px 0;
+    left: -40px;
+}
+
+.splide:hover .splide__arrow--prev {
+    left: 0;
+}
+
+.splide__arrow--next {
+    border-radius: 500px 0 0 500px;
+    right: -40px;
+}
+
+.splide:hover .splide__arrow--next {
+    right: 0;
+}

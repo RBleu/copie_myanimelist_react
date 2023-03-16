@@ -1,0 +1,32 @@
+#container {
+    width: 1100px;
+    position: relative;
+}
+
+#container.small-container {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#layout-title {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 7px 15px;
+    background-color: var(--light-gray);
+    border-bottom: 1px solid #000;
+}
+
+#layout-content {
+    padding: 15px;
+    border: 1px solid var(--light-gray);
+}
+
+@media (max-width: 1100px) {
+    #wrapper {
+        overflow-x: hidden;
+    }
+
+    #container {
+        width: 100%;
+    }
+}
