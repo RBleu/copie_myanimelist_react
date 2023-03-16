@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/myanimelist/static/css/main.6caaab15.css",
-    "main.js": "/myanimelist/static/js/main.70825334.js",
-    "static/js/787.18803ecc.chunk.js": "/myanimelist/static/js/787.18803ecc.chunk.js",
-    "index.html": "/myanimelist/index.html",
-    "static/media/list-icon.svg": "/myanimelist/static/media/list-icon.9f79d92904ba97e8f0264241ec587b2e.svg",
-    "static/media/bell-icon.svg": "/myanimelist/static/media/bell-icon.52b89c94219d964ea175626b35034337.svg",
-    "static/media/bars-icon.svg": "/myanimelist/static/media/bars-icon.69707d7401c01382651c5c630dc731f2.svg",
-    "static/media/envelope-icon.svg": "/myanimelist/static/media/envelope-icon.a9a8c84ad6d43bc769ea7a087ac4c76b.svg",
-    "static/media/search-icon.svg": "/myanimelist/static/media/search-icon.bf7c00a4cf3b50288170bca48fe9fd9a.svg",
-    "main.6caaab15.css.map": "/myanimelist/static/css/main.6caaab15.css.map",
-    "main.70825334.js.map": "/myanimelist/static/js/main.70825334.js.map",
-    "787.18803ecc.chunk.js.map": "/myanimelist/static/js/787.18803ecc.chunk.js.map"
+    "main.css": "/copie_myanimelist_react/static/css/main.6caaab15.css",
+    "main.js": "/copie_myanimelist_react/static/js/main.b744f433.js",
+    "static/js/787.18803ecc.chunk.js": "/copie_myanimelist_react/static/js/787.18803ecc.chunk.js",
+    "index.html": "/copie_myanimelist_react/index.html",
+    "static/media/list-icon.svg": "/copie_myanimelist_react/static/media/list-icon.9f79d92904ba97e8f0264241ec587b2e.svg",
+    "static/media/bell-icon.svg": "/copie_myanimelist_react/static/media/bell-icon.52b89c94219d964ea175626b35034337.svg",
+    "static/media/bars-icon.svg": "/copie_myanimelist_react/static/media/bars-icon.69707d7401c01382651c5c630dc731f2.svg",
+    "static/media/envelope-icon.svg": "/copie_myanimelist_react/static/media/envelope-icon.a9a8c84ad6d43bc769ea7a087ac4c76b.svg",
+    "static/media/search-icon.svg": "/copie_myanimelist_react/static/media/search-icon.bf7c00a4cf3b50288170bca48fe9fd9a.svg",
+    "main.6caaab15.css.map": "/copie_myanimelist_react/static/css/main.6caaab15.css.map",
+    "main.b744f433.js.map": "/copie_myanimelist_react/static/js/main.b744f433.js.map",
+    "787.18803ecc.chunk.js.map": "/copie_myanimelist_react/static/js/787.18803ecc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6caaab15.css",
-    "static/js/main.70825334.js"
+    "static/js/main.b744f433.js"
   ]
 }
