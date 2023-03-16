@@ -1,3 +1,11 @@
+# Présentation
+
+Ce projet est la réalisation d'une copie du site MyAnimeList en utilisant ReactJS
+
+Lien de MyAnimeList: https://myanimelist.net/
+
+Lien de la copie: https://rbleu.github.io/copie_myanimelist_react/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
